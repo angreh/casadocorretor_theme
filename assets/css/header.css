@@ -1,0 +1,42 @@
+#header {
+    height: 106px;
+}
+#header .logo
+{
+    position: absolute;
+    left: 0;
+    top: 32px;
+}
+#header .logo a
+{
+    display: block;
+    font-size: 0;
+    background-image: url("/wp-content/themes/mktz_CDCorretor/assets/img/header_logo.png");
+    height: 50px;
+    width: 219px;
+    cursor: pointer;
+}
+#header .menu-wrapper
+{
+    position: absolute;
+    top: 43px;
+    right: 0;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+#header .menu-wrapper li
+{
+    display: inline-block;
+}
+#header .menu-wrapper li.current-menu-item
+{
+    border-bottom: 6px #2a5b98 solid;
+}
+#header .menu-wrapper li a
+{
+    text-decoration: none;
+    color: #272727;
+    font-weight: 300;
+    display: block;
+    padding: 20px 20px;
+}
