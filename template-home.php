@@ -15,7 +15,7 @@ Template Name: Main Home
             <div class="pre-form"></div>
             <div class="form">
                 <form>
-                    <input />
+                    <input>
                 </form>
             </div><!-- .form -->
             <div class="pos-form"></div>
