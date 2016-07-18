@@ -44,7 +44,7 @@
 }
 #home-banner .form-wrapper .form
 {
-    height: 100px;
+    min-height: 100px;
     background-color: #ffffff;
 }
 #home-banner .form-wrapper .pos-form
@@ -63,4 +63,41 @@
     top: 0;
     left: 0;
     width: 236px;
+}
+#home-banner .form-wrapper .mktz-radio
+{
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+#home-banner .form-wrapper .mktz-radio:after
+{
+    display: inline-block;
+    content: ' ';
+    background: url("../../img/banner_form_rdio.png");
+    width: 15px;
+    height: 15px;
+}
+#home-banner .form-wrapper .mktz-radio:checked:after {
+    background: url("../../img/banner_form_rdiock.png");
+}
+#home-banner .form-wrapper .input-radio-container
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.33%;
+    text-align: center;
+}
+#home-banner .form-wrapper .input-radio-container label
+{
+    display: block;
+    font-size: 0.85em;
+    color: #d41531;
+    line-height: 1em;
+}
+#home-banner .form-wrapper .input-radio-container label strong
+{
+    letter-spacing: 0.05em;
+    font-weight: 700;
 }
