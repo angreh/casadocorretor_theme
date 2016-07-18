@@ -1,6 +1,20 @@
-#home-porquecdc p
+#home-porquecdc
 {
-    color: #737479;
-    font-weight: 300;
-    font-size: 1.1em;
+    background: url("../../img/pqcdc_bg.jpg");
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+#home-porquecdc .container
+{
+    height: 100%;
+}
+#home-porquecdc .family
+{
+    background: url("../../img/pqcdc_family.png");
+    width: 984px;
+    height: 520px;
+    position: absolute;
+    bottom: 0;
+    right: -320px;
 }
