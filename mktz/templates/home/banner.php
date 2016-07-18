@@ -1,10 +1,11 @@
 <div id="home-banner">
-    <div class="container">
+    <div class="container clearfix">
 
         <div class="slogan">
             <h1>
-                Aqui a sua <br>
-                saúde está em casa
+                Aqui <strong>a</strong> <br/>
+                sua <strong>saúde</strong> <br/>
+                <strong>está em casa</strong>
             </h1>
         </div>
 
@@ -15,8 +16,8 @@
             <div class="form">
                 <form>
 
-                    <p>
-                        CONVERSE COM NOSSOS CORRETORES
+                    <p class="slogan">
+                        CONVERSE COM <strong>NOSSOS CORRETORES</strong>
                     </p>
 
                     <div class="radio-wrapper">
@@ -55,7 +56,7 @@
                     </div>
 
                     <div class="input-container">
-                        <label for="email">E-amil:</label>
+                        <label for="email">E-mail:</label>
                         <input type="text" id="email">
                     </div>
 
@@ -68,10 +69,10 @@
                     </div>
 
                     <p class="warning">
-                        *campos que devem ser preenchidos
+                        * campos que devem ser preenchidos
                     </p>
 
-                    <div class="left">
+                    <div class="right">
                         <button type="submit" class="submit">ASSINE</button>
                     </div>
 

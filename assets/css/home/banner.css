@@ -2,7 +2,7 @@
 {
     background: url("/wp-content/themes/mktz_CDCorretor/assets/img/banner_bg.jpg");
     background-size: cover;
-    height: 634px;
+    /*height: 634px;*/
 }
 #home-banner .container
 {
@@ -16,14 +16,17 @@
     bottom: 0;
     position: absolute;
     left: 0;
+    z-index: 1;
 }
 
 #home-banner .form-wrapper
 {
-    position: absolute;
+    float: right;
     width: 463px;
-    right: 0;
-    top: 45px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
 }
 #home-banner .form-wrapper .pre-form
 {
@@ -64,40 +67,113 @@
     left: 0;
     width: 236px;
 }
-#home-banner .form-wrapper .mktz-radio
+#home-banner .form-wrapper p.slogan
 {
-    position: relative;
-    width: 15px;
-    height: 15px;
+    font-style: italic;
+    color: #d41531;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px 0 20px;
 }
-#home-banner .form-wrapper .mktz-radio:after
+#home-banner .form-wrapper p.slogan strong
 {
-    display: inline-block;
-    content: ' ';
-    background: url("../../img/banner_form_rdio.png");
-    width: 15px;
-    height: 15px;
+    font-weight: 700;
 }
-#home-banner .form-wrapper .mktz-radio:checked:after {
-    background: url("../../img/banner_form_rdiock.png");
+#home-banner .form-wrapper .form
+{
+    padding: 0 20px;
+}
+#home-banner .form-wrapper .input-radio-container label,
+#home-banner .form-wrapper .input-radio-container div
+{
+    cursor: pointer;
 }
 #home-banner .form-wrapper .input-radio-container
 {
-    position: relative;
     display: inline-block;
-    vertical-align: top;
     width: 32.33%;
     text-align: center;
+    vertical-align: top;
 }
 #home-banner .form-wrapper .input-radio-container label
 {
+    color: #d41531;
     display: block;
     font-size: 0.85em;
-    color: #d41531;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 #home-banner .form-wrapper .input-radio-container label strong
 {
-    letter-spacing: 0.05em;
     font-weight: 700;
+}
+#home-banner .form-wrapper .mktz-replacer-radio
+{
+    background: url("../../img/banner_form_rdio.png");
+    width: 15px;
+    height: 15px;
+    transition: background 0.5s;
+    display: inline-block;
+}
+#home-banner .form-wrapper .mktz-replacer-radio.checked
+{
+    background: url("../../img/banner_form_rdiock.png");
+}
+#home-banner .form-wrapper .input-container
+{
+    margin-bottom: 10px;
+}
+#home-banner .form-wrapper .input-container label
+{
+    display: block;
+    color: #a9a9a9;
+    font-size: 1.1em;
+    font-weight: 200;
+    padding-left: 10px;
+}
+#home-banner .form-wrapper .input-container input,
+#home-banner .form-wrapper .input-container select
+{
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #d41531;
+    border-radius: 0;
+    background-color: #fbfbfb;
+}
+#home-banner .form-wrapper p.warning
+{
+    color: #a9a9a9;
+    font-size: 0.8em;
+}
+#home-banner div.slogan
+{
+    float: left;
+    line-height: 1.3em;
+    font-size: 2.5em;
+    color: #1e467a;
+    margin-top: 50px;
+}
+#home-banner div.slogan strong
+{
+    font-weight: 700;
+}
+#home-banner div.right
+{
+    text-align: right;
+    padding-bottom: 30px;
+}
+#home-banner .form-wrapper div.right button
+{
+    padding: 8px 30px;
+    background-color: #1e467a;
+    color: #ffffff;
+    border: none;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.05em;
 }
