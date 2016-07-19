@@ -1,6 +1,6 @@
     <div id="footer">
         <div class="container">
-            footer
+            <div class="logo"></div>
         </div><!-- .container -->
     </div><!-- #footer -->
 

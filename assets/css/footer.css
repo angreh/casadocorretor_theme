@@ -1,0 +1,14 @@
+#footer
+{
+    height: 190px;
+    background-color: #f4f4f4;
+}
+#footer .logo
+{
+    background: url("../img/footer_logo.png");
+    width: 323px;
+    height: 75px;
+    position: absolute;
+    left: 0;
+    top: 56px;
+}
