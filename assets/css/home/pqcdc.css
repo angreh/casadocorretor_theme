@@ -2,9 +2,9 @@
 {
     background: url("../../img/pqcdc_bg.jpg");
     background-size: cover;
-    height: 300px;
     position: relative;
     color: #ffffff;
+    padding-bottom: 35px;
 }
 #home-porquecdc .container
 {
@@ -18,6 +18,19 @@
     position: absolute;
     bottom: 0;
     right: -320px;
+    display: none;
+}
+@media (min-width: 1150px)
+{
+    #home-porquecdc .family
+    {
+        display: block;
+    }
+    #home-porquecdc
+    {
+        height: 300px;
+        padding-bottom: 0;
+    }
 }
 #home-porquecdc h3
 {

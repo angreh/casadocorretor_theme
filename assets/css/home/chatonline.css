@@ -32,6 +32,7 @@
     position: absolute;
     top: -59px;
     left: 0;
+    display: none;
 }
 #home-chatonline .bottomleft
 {
@@ -41,6 +42,14 @@
     position: absolute;
     top: 40px;
     right: 0;
+    display: none;
+}
+@media (min-width: 1460px) {
+    #home-chatonline .topright,
+    #home-chatonline .bottomleft
+    {
+        display: block;
+    }
 }
 #home-chatonline .phone
 {

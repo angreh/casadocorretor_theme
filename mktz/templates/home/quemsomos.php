@@ -9,10 +9,10 @@
             comercialização de planos de assistência médica e odontológica rendeu frutos, pois
             hoje somos a melhor corretora neste segmento. <br/>
             <br/>
-            Seriedade, Responsabilidade e Credibilidade são nossos valores e os <br/>
+            Seriedade, Responsabilidade e Credibilidade são nossos valores e os <br class="large-only">
             corretores nosso patrimônio. <br/>
             <br/>
-            Aqui todo profissional de vendas é bem vindo e terá uma Equipe <br/>
+            Aqui todo profissional de vendas é bem vindo e terá uma Equipe <br class="large-only">
             altamente capacitada para atendê-lo.
         </p>
     </div><!-- .container -->
