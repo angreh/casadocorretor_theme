@@ -1,0 +1,22 @@
+#home-quemsomos
+{
+    color: #1e467a;
+}
+#home-quemsomos h3
+{
+    font-size: 2em;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+#home-quemsomos h3 strong
+{
+    font-weight: 700;
+}
+#home-quemsomos p
+{
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.7em;
+    padding-bottom: 38px;
+}
