@@ -1,5 +1,5 @@
     <div id="footer">
-        <div class="container">
+        <div class="container clearfix">
 
             <div class="logo"></div>
 
