@@ -29,4 +29,20 @@ $(function(){
         }
     );
     $('.mktz-replacer-radio[aria-id="pme"]').click();
+
+    $('#menu-mobile .open').on(
+        'click',
+        function()
+        {
+            $('#menu-mobile .wrapper').slideDown();
+        }
+    );
+
+    $('#menu-mobile .close').on(
+        'click',
+        function()
+        {
+            $('#menu-mobile .wrapper').slideUp();
+        }
+    );
 });
