@@ -17,6 +17,7 @@
                 </div>
                 <div class="corretor">
                     <a href="/corretor">Corretor</a>
+                    <a href="/parceiros">Parceiros</a>
                 </div>
             </div>
 
