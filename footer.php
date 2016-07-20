@@ -1,6 +1,25 @@
     <div id="footer">
         <div class="container">
+
             <div class="logo"></div>
+
+            <div class="menu-wrapper">
+                <?php wp_nav_menu(array(
+                    'menu' => 'footer_menu'
+                )); ?>
+            </div>
+
+            <div class="others">
+                <div class="social">
+                    <a href="/fb" class="fb">Facebook</a>
+                    <a href="/phone" class="ph">Telefone</a>
+                    <a href="/email" class="em">Email</a>
+                </div>
+                <div class="corretor">
+                    <a href="/corretor">Corretor</a>
+                </div>
+            </div>
+
         </div><!-- .container -->
     </div><!-- #footer -->
 
