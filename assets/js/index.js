@@ -11,24 +11,24 @@ function checkRadio(id)
 }
 $(function(){
 
-    $('.mktz-radio').each(function(){
-        $(this).hide();
-        $(this).after('<div class="mktz-replacer-radio" aria-id="' + $(this).attr('id') + '"></div>');
-    });
-
-    $('.mktz-replacer-radio').on(
-        'click',
-        function(){
-            checkRadio($(this).attr('aria-id'));
-        }
-    );
-    $('.input-radio-container label').on(
-        'click',
-        function(){
-            checkRadio($(this).attr('for'));
-        }
-    );
-    $('.mktz-replacer-radio[aria-id="pme"]').click();
+    //$('.mktz-radio').each(function(){
+    //    $(this).hide();
+    //    $(this).after('<div class="mktz-replacer-radio" aria-id="' + $(this).attr('id') + '"></div>');
+    //});
+    //
+    //$('.mktz-replacer-radio').on(
+    //    'click',
+    //    function(){
+    //        checkRadio($(this).attr('aria-id'));
+    //    }
+    //);
+    //$('.input-radio-container label').on(
+    //    'click',
+    //    function(){
+    //        checkRadio($(this).attr('for'));
+    //    }
+    //);
+    //$('.mktz-replacer-radio[aria-id="pme"]').click();
 
     $('#menu-mobile .open').on(
         'click',

@@ -23,12 +23,12 @@
                     <div class="radio-wrapper">
 
                         <div class="input-radio-container">
-                            <input type="radio" name="type" id="pfisica" class="mktz-radio" checked="checked">
+                            <input type="radio" name="type" id="pfisica" class="with-gap">
                             <label for="pfisica"><strong>Pessoa física</strong></label>
                         </div>
 
                         <div class="input-radio-container">
-                            <input type="radio" name="type" id="pme" class="mktz-radio">
+                            <input type="radio" name="type" id="pme" class="with-gap" checked="checked">
                             <label for="pme">
                                 <strong>PME</strong><br>
                                 (de 3 a 99 vidas)
@@ -36,7 +36,7 @@
                         </div>
 
                         <div class="input-radio-container">
-                            <input type="radio" name="type" id="pjuridica" class="mktz-radio">
+                            <input type="radio" name="type" id="pjuridica" class="with-gap">
                             <label for="pjuridica">
                                 <strong>Pessoa Jurídica</strong><br>
                                 (+ de 100 vidas)
