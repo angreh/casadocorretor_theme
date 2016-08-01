@@ -4,6 +4,8 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="/wp-content/themes/mktz_CDCorretor/assets/css/plugins/remodal/remodal.css" rel="stylesheet" />
+    <link href="/wp-content/themes/mktz_CDCorretor/assets/css/plugins/remodal/remodal-default-theme.css" rel="stylesheet" />
     <link href="<?php echo get_template_directory_uri() . '/style.css'; ?>" rel="stylesheet" />
 
     <link rel="profile" href="http://gmpg.org/xfn/11">

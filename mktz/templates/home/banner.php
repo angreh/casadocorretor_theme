@@ -46,24 +46,24 @@
                     </div><!-- .radio-wrapper -->
 
                     <div class="input-container">
-                        <label for="name">Nome:</label>
-                        <input type="text" id="name">
+<!--                        <label for="name">Nome:</label>-->
+                        <input type="text" id="name" placeholder="Nome">
                     </div>
                     
                     <div class="input-container">
-                        <label for="phone">Telefone:</label>
-                        <input type="text" id="phone">
+<!--                        <label for="phone">Telefone:</label>-->
+                        <input type="text" id="phone" placeholder="Telefone">
                     </div>
 
                     <div class="input-container">
-                        <label for="email">E-mail:</label>
-                        <input type="text" id="email">
+<!--                        <label for="email">E-mail:</label>-->
+                        <input type="text" id="email" placeholder="E-mail">
                     </div>
 
                     <div class="input-container">
-                        <label for="planType">Tipo de Plano:</label>
+<!--                        <label for="planType">Tipo de Plano:</label>-->
                         <select name="" id="planType">
-                            <option value=""></option>
+                            <option value="">Escolha um tipo de plano</option>
                             <option value=""></option>
                         </select>
                     </div>
@@ -73,7 +73,7 @@
                     </p>
 
                     <div class="right">
-                        <button type="submit" class="submit">ASSINE</button>
+                        <button type="submit" class="submit">ENVIAR</button>
                     </div>
 
                 </form><!-- .form -->

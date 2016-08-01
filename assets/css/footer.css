@@ -135,3 +135,14 @@
         top: 22px;
     }
 }
+
+/* modal =============================================== */
+.tmz-remodal-options-wrapper a
+{
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    background-color: #3774B3;
+    text-decoration: none;
+    color: #ffffff;
+}
