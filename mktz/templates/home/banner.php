@@ -17,7 +17,7 @@
         <div class="form-wrapper">
             <div class="pre-form"></div>
             <div class="form">
-                <form id="lead-gen">
+                <form id="lead-gen" action="http://casadocorretor.net/" method="post">
 
                     <p class="slogan">
                         CONVERSE COM <strong>NOSSOS CORRETORES</strong>
@@ -91,6 +91,8 @@
                         <!--                        <label for="email">E-mail:</label>-->
                         <input type="text" name="args[cidade]" id="cidade" placeholder="Cidade">
                     </div>
+
+                    <input type="text" name="args[msg]" value="desabilitado" />
 
                     <p class="warning">
                         * campos que devem ser preenchidos
