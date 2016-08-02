@@ -1,3 +1,6 @@
+<?php
+    $estados = $Mktz->Cidades()->getEstados();
+?>
 <div id="home-banner">
     <div class="container clearfix">
 
@@ -14,7 +17,7 @@
         <div class="form-wrapper">
             <div class="pre-form"></div>
             <div class="form">
-                <form>
+                <form id="lead-gen">
 
                     <p class="slogan">
                         CONVERSE COM <strong>NOSSOS CORRETORES</strong>
@@ -23,12 +26,12 @@
                     <div class="radio-wrapper">
 
                         <div class="input-radio-container">
-                            <input type="radio" name="type" id="pfisica" class="with-gap">
+                            <input type="radio" name="args[tipo_plano]" id="pfisica" class="with-gap" value="familiar">
                             <label for="pfisica"><strong>Pessoa física</strong></label>
                         </div>
 
                         <div class="input-radio-container">
-                            <input type="radio" name="type" id="pme" class="with-gap" checked="checked">
+                            <input type="radio" name="args[tipo_plano]" id="pme" class="with-gap" value="adesao" checked="checked">
                             <label for="pme">
                                 <strong>PME</strong><br>
                                 (de 3 a 99 vidas)
@@ -36,7 +39,7 @@
                         </div>
 
                         <div class="input-radio-container">
-                            <input type="radio" name="type" id="pjuridica" class="with-gap">
+                            <input type="radio" name="args[tipo_plano]" id="pjuridica" class="with-gap" value="empresarial">
                             <label for="pjuridica">
                                 <strong>Pessoa Jurídica</strong><br>
                                 (+ de 100 vidas)
@@ -45,27 +48,48 @@
 
                     </div><!-- .radio-wrapper -->
 
+                    <input type="hidden" name="args[qtd_vidas]" value="0">
+
                     <div class="input-container">
 <!--                        <label for="name">Nome:</label>-->
-                        <input type="text" id="name" placeholder="Nome">
+                        <input type="text" id="name" name="args[nome]" placeholder="Nome">
                     </div>
+
+                    <input type="hidden" name="args[ddd]" id="dddTel" />
                     
                     <div class="input-container">
 <!--                        <label for="phone">Telefone:</label>-->
-                        <input type="text" id="phone" placeholder="Telefone">
+                        <input type="text" id="phone" name="args[telefone]" placeholder="Telefone">
                     </div>
 
                     <div class="input-container">
 <!--                        <label for="email">E-mail:</label>-->
-                        <input type="text" id="email" placeholder="E-mail">
+                        <input type="text" id="email" name="args[email]" placeholder="E-mail">
                     </div>
 
                     <div class="input-container">
 <!--                        <label for="planType">Tipo de Plano:</label>-->
-                        <select name="" id="planType">
-                            <option value="">Escolha um tipo de plano</option>
-                            <option value=""></option>
+                        <select name="args[tipo_desejado]" id="planType">
+                            <option value="0">Selecione um tipo de plano:</option>
+                            <option value="S">Saúde</option>
+                            <option value="O">Odonto</option>
+                            <option value="A">Saúde e Odonto</option>
                         </select>
+                    </div>
+
+                    <div class="input-container">
+<!--                        <label for="planType">Tipo de Plano:</label>-->
+                        <select name="args[estado]" id="estado">
+                            <option value="0">Selecione um estado:</option>
+                            <?php foreach($estados as $estado): ?>
+                                <option value="<?php echo $estado->Uf; ?>"><?php echo $estado->Nome; ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+
+                    <div class="input-container">
+                        <!--                        <label for="email">E-mail:</label>-->
+                        <input type="text" name="args[cidade]" id="cidade" placeholder="Cidade">
                     </div>
 
                     <p class="warning">

@@ -70,6 +70,9 @@
 
     <script src="/wp-content/themes/mktz_CDCorretor/assets/js/plugins/jquery-3.1.0.min.js"></script>
     <script src="/wp-content/themes/mktz_CDCorretor/assets/js/plugins/remodal/remodal.js"></script>
+    <script src="/wp-content/themes/mktz_CDCorretor/assets/js/plugins/autocomplete/jquery.autocomplete.min.js"></script>
+    <script src="/wp-content/themes/mktz_CDCorretor/assets/js/plugins/mask/jquery.mask.js"></script>
+    <script src="/wp-content/themes/mktz_CDCorretor/assets/js/plugins/mask/jquery.validate.min.js"></script>
     <script src="/wp-content/themes/mktz_CDCorretor/assets/js/index.js"></script>
 
 </body>
