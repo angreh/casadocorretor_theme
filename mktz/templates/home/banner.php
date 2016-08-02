@@ -92,7 +92,7 @@
                         <input type="text" name="args[cidade]" id="cidade" placeholder="Cidade">
                     </div>
 
-                    <input type="text" name="args[msg]" value="desabilitado" />
+                    <input type="hidden" name="args[msg]" value="desabilitado" />
 
                     <p class="warning">
                         * campos que devem ser preenchidos
