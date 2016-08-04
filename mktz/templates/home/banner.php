@@ -50,16 +50,20 @@
 
                     <input type="hidden" name="args[qtd_vidas]" value="0">
 
-                    <div class="input-container">
-<!--                        <label for="name">Nome:</label>-->
-                        <input type="text" id="name" name="args[nome]" placeholder="Nome">
-                    </div>
+                        <div class="input-container">
+                            <!--                        <label for="name">Nome:</label>-->
+                            <input type="text" id="name" name="args[nome]" placeholder="Nome">
+                        </div>
+                    <div class="phoneRow">
 
-                    <input type="hidden" name="args[ddd]" id="dddTel" />
-                    
-                    <div class="input-container">
-<!--                        <label for="phone">Telefone:</label>-->
-                        <input type="text" id="phone" name="args[telefone]" placeholder="Telefone">
+                        <div class="input-container">
+                            <input type="text" name="args[ddd]" id="dddTel" placeholder="DDD" />
+                        </div>
+
+                        <div class="input-container">
+    <!--                        <label for="phone">Telefone:</label>-->
+                            <input type="text" id="phone" name="args[telefone]" placeholder="Telefone">
+                        </div>
                     </div>
 
                     <div class="input-container">

@@ -403,3 +403,19 @@
 .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
 .autocomplete-group { padding: 2px 5px; }
 .autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.phoneRow
+{
+    position: relative;
+}
+
+.phoneRow .input-container:first-child
+{
+    width: 30%;
+    float: left;
+}
+.phoneRow .input-container:last-child
+{
+    width: 68%;
+    float: right;
+}

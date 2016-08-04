@@ -37,18 +37,18 @@ $(function(){
         }
     );
 
-    $('#lead-gen').submit(function(){
-        var $phone = $('#phone');
-        var fullPhone = $phone.val();
-        var ddd = fullPhone.slice(1,3);
-        var phone = fullPhone.slice(4);
+    //$('#lead-gen').submit(function(){
+    //    var $phone = $('#phone');
+    //    var fullPhone = $phone.val();
+    //    var ddd = fullPhone.slice(1,3);
+    //    var phone = fullPhone.slice(4);
+    //
+    //    $('#dddTel').val(ddd);
+    //    $phone.val(phone);
+    //    //return false;
+    //});
 
-        $('#dddTel').val(ddd);
-        $phone.val(phone);
-        //return false;
-    });
-
-    bannerMasks();
+    //bannerMasks();
     //applyHomeValitador();
 });
 
