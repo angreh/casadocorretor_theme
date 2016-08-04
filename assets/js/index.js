@@ -45,11 +45,11 @@ $(function(){
 
         $('#dddTel').val(ddd);
         $phone.val(phone);
-        return false;
+        //return false;
     });
 
     bannerMasks();
-    applyHomeValitador();
+    //applyHomeValitador();
 });
 
 
