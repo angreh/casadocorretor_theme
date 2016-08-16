@@ -2,7 +2,7 @@
 
 if ( isset($_POST['args']) && !empty($_POST['args']) )
 {
-    $url = 'http://old.cdc.local/';
+    $url = 'http://casadocorretor.net/';
 
     $ch = curl_init();
 
