@@ -419,3 +419,11 @@
     width: 68%;
     float: right;
 }
+.modal-content h1
+{
+    font-size: 1.4em;
+}
+.remodal-confirm
+{
+    background-color: #1e467a;
+}

@@ -28,13 +28,31 @@
 
                     <button data-remodal-action="close" class="remodal-close"></button>
 
-                    <form name="loginform_topo" id="loginform_topo" action="http://casadocorretor.net/wp-login.php" method="post">
+                    <form
+                        name="loginform_topo"
+                        id="loginform_topo"
+                        action="http://casadocorretor.net/wp-login.php"
+                        method="post">
 
                         <p class="login-username">
-                            <input type="text" name="log" id="user_login_topo" placeholder="Usuário" class="input" value="" size="20" />
+                            <input
+                                type="text"
+                                name="log"
+                                id="user_login_topo"
+                                placeholder="Usuário"
+                                class="input"
+                                value=""
+                                size="20" />
                         </p>
                         <p class="login-password">
-                            <input type="password" name="pwd" id="user_pass_topo" placeholder="Senha" class="input" value="" size="20" />
+                            <input
+                                type="password"
+                                name="pwd"
+                                id="user_pass_topo"
+                                placeholder="Senha"
+                                class="input"
+                                value=""
+                                size="20" />
                         </p>
 
                         <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme_topo" value="forever" /> Lembrar</label></p>
@@ -53,13 +71,13 @@
                     <h1>Selecione um ação:</h1>
                     <br>
                     <div class="tmz-remodal-options-wrapper">
-                        <a href="http://servicos.casadocorretor.net/erp/login.php">ERP</a>
-                        <a href="https://indicacao.sauti.com.br/">Sauti</a>
-                        <a href="https://mail.casadocorretor.net/">E-mail</a>
-                        <a href="http://casasulamerica.com.br/">Casa SulAmérica</a>
-                        <a href="http://app.simuladoronline.com/login/44?layout=basic-login">Simulador On Line</a>
-                        <a href="https://cotador-saude.appspot.com/autenticacao/login_vendedor">Cotador SulAmérica</a>
-                        <a href="http://casadocorretor.net/doclist/">Tabelas e Documentação</a>
+                        <a target="_blank" href="http://servicos.casadocorretor.net/erp/login.php">ERP</a>
+                        <a target="_blank" href="https://indicacao.sauti.com.br/">Sauti</a>
+                        <a target="_blank" href="https://mail.casadocorretor.net/">E-mail</a>
+                        <a target="_blank" href="http://casasulamerica.com.br/">Casa SulAmérica</a>
+                        <a target="_blank" href="http://app.simuladoronline.com/login/44?layout=basic-login">Simulador On Line</a>
+                        <a target="_blank" href="https://cotador-saude.appspot.com/autenticacao/login_vendedor">Cotador SulAmérica</a>
+                        <a target="_blank" href="http://casadocorretor.net/doclist/">Tabelas e Documentação</a>
                     </div>
                 </div>
 

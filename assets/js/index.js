@@ -37,16 +37,29 @@ $(function(){
         }
     );
 
-    //$('#lead-gen').submit(function(){
-    //    var $phone = $('#phone');
-    //    var fullPhone = $phone.val();
-    //    var ddd = fullPhone.slice(1,3);
-    //    var phone = fullPhone.slice(4);
-    //
-    //    $('#dddTel').val(ddd);
-    //    $phone.val(phone);
-    //    //return false;
-    //});
+    $('#lead-gen').submit(function(){
+        var modal = $('[data-remodal-id=modal-return]').remodal({hashTracking:false});
+        var formData = $('#lead-gen').serialize();
+        var formURL = "wp-content/themes/mktz_CDCorretor/mktz/functions/ajax.php";
+        modal.open();
+        $('.modal-content').html('<img src="/wp-content/themes/mktz_CDCorretor/assets/img/loading.gif" alt=""/><br /><br />Enviando dados ...');
+        $.ajax({
+            url: formURL,
+            method: 'post',
+            data: formData,
+            success: function(data)
+            {
+                var obj = JSON.parse(data);
+                var code = obj.retorno.retorno_mestre.response.code;
+                var message = obj.retorno.retorno_mestre.response.message;
+                if( code == 200 && message == 'OK' )
+                {
+                    $('.modal-content').html('<h1>Registro efetuado com SUCESSO!</h1><br /><br /><button data-remodal-action="confirm" class="remodal-confirm">OK</button>');
+                }
+            }
+        });
+        return false;
+    });
 
     //bannerMasks();
     //applyHomeValitador();

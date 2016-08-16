@@ -17,7 +17,7 @@
         <div class="form-wrapper">
             <div class="pre-form"></div>
             <div class="form">
-                <form id="lead-gen" action="http://casadocorretor.net/" method="post">
+                <form id="lead-gen" method="post">
 
                     <p class="slogan">
                         CONVERSE COM <strong>NOSSOS CORRETORES</strong>
@@ -48,7 +48,7 @@
 
                     </div><!-- .radio-wrapper -->
 
-                    <input type="hidden" name="args[qtd_vidas]" value="0">
+                    <input type="hidden" name="args[qtd_vidas]" value="1">
 
                         <div class="input-container">
                             <!--                        <label for="name">Nome:</label>-->
@@ -97,6 +97,7 @@
                     </div>
 
                     <input type="hidden" name="args[msg]" value="desabilitado" />
+                    <?php $Mktz->Form()->gen(); ?>
 
                     <p class="warning">
                         * campos que devem ser preenchidos
@@ -109,6 +110,18 @@
                 </form><!-- .form -->
             </div><!-- .form -->
             <div class="pos-form"></div>
+
+            <!-- #modal -->
+            <div data-remodal-id="modal-return"
+                 data-remodal-options="hashTracking: false">
+
+                <button data-remodal-action="close" class="remodal-close"></button>
+
+                <div class="modal-content">
+                    <img src="/wp-content/themes/mktz_CDCorretor/assets/img/loading.gif" alt=""/>
+                </div>
+            </div>
+
         </div><!-- .form-wrapper -->
 
     </div><!-- .container -->
